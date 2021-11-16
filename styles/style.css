@@ -115,10 +115,37 @@ nav a:hover {
 }
 footer {
     background-color: #CC7178;
+    margin-top: -30px;
 }
 footer h3 {
     color: white;
     font-size: 30px;
-    margin-top: 20px;
+    padding: 2%;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+footer .social {
+text-align: right;
+padding: 30px;
+margin-top: -50px;
 }
 /*ourstory.css*/
+.story.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+h1 {
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #CC7178;
+    grid-column: 2/3;
+}
+p {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #CC7178;
+}
+
