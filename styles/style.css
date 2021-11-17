@@ -148,4 +148,68 @@ p {
     font-size: 30px;
     color: #CC7178;
 }
-
+/*registry*/
+.reg-main h1 {
+    text-align: center;
+    margin: 100px;
+}
+.reg-main p {
+    margin: 30px 20% 100px 20%;
+    box-shadow: 5px 5px 10px #77ADBB;
+    line-height: 2em;
+}
+#reg-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+#reg-grid img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 10px #443742;
+    margin-bottom: 10px;
+}
+#reg-grid a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: black;
+}
+#reg-grid a:hover {
+    color:#77ADBB;
+    background-color:#FFD9DA;
+    padding: 30px;
+}
+.utensil-set {
+    grid-column: 2/3;
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+}
+.tv {
+    grid-column: 4/5;
+    padding: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+.e-kit {
+    grid-column: 6/7;
+    padding: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+.griddle {
+    grid-column: 2/3;
+    padding: 50px;
+    text-align: center;
+}
+.vaccum {
+    grid-column: 4/5;
+    padding: 50px;
+    text-align: center;
+}
+.knives {
+    grid-column: 6/7;
+    padding: 50px;
+    text-align: center;
+}
