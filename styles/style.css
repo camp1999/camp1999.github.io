@@ -142,27 +142,61 @@ footer a{
     display: grid;
     grid-template-columns: repeat(13 1fr)
 }
-h1 {
+h1#n1 {
     font-family: 'Satisfy', Arial, Helvetica, sans-serif;
     font-size: 60px;
     color: #CC7178;
     grid-column: 2/3;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 70px;
 }
-p.shadow {
+p.p1 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #CC7178;
     box-shadow: 5px 5px 10px #77ADBB;
-    grid-column: 4/8;
+    grid-column: 4/9;
+    margin-top: 300px;
+    margin-left: 200px;
+    line-height: 1.5em;
 }
 #camcow {
     width: 400px;
     height: 500px;
     border: 10px solid #77ADBB;
     grid-column: 2/3;
+    margin-top: -500px;
+    margin-left: 100px;
+}
+h1#n2 {
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
+    font-size: 60px;        
+    color: #CC7178;
+    grid-column: 10/11;
+}
+p.p2 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #CC7178;
+    box-shadow: 5px 5px 10px #77ADBB;
+    grid-column: 4/9;
+}
+h1#n3 {
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #CC7178;
+    grid-column: 6/7;
+}
+p.p3 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #CC7178;
+    box-shadow: 5px 5px 10px #77ADBB;
+    grid-column: 4/9;
 }
 #babyb {
-    grid-column: 7/8;
+    grid-column: 10/11;
     border: 10px solid #77ADBB;
     width: 500px;
     height: 400px;
@@ -171,11 +205,13 @@ p.shadow {
     width: 400px;
     height: 500px;
     border: 10px solid #77ADBB;
+    grid-column: 2/4;
 }
 #couple {
     width: 400px;
     height: 500px;
     border: 10px solid #77ADBB;
+    grid-column: 10/12;
 }
 
 /*registry*/
