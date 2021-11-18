@@ -140,7 +140,7 @@ footer a{
 /*ourstory.css*/
 .story-grid {
     display: grid;
-    grid-template-columns: repeat(10 1fr)
+    grid-template-columns: repeat(13 1fr)
 }
 h1 {
     font-family: 'Satisfy', Arial, Helvetica, sans-serif;
@@ -148,7 +148,7 @@ h1 {
     color: #CC7178;
     grid-column: 2/3;
 }
-p {
+p.shadow {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #CC7178;
@@ -167,6 +167,16 @@ p {
     width: 500px;
     height: 400px;
 }
+#dance {
+    width: 400px;
+    height: 500px;
+    border: 10px solid #77ADBB;
+}
+#couple {
+    width: 400px;
+    height: 500px;
+    border: 10px solid #77ADBB;
+}
 
 /*registry*/
 .reg-main h1 {
@@ -176,9 +186,16 @@ p {
     font-size: 60px;
     color: #CC7178;
 }
-.reg-main p {
+p.reg {
     margin: 30px 20% 100px 20%;
     box-shadow: 5px 5px 10px #77ADBB;
+    line-height: 2em;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #CC7178;
+}
+p.price {
+    margin: 30px 20% 100px 20%;
     line-height: 2em;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 30px;
