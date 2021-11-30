@@ -279,9 +279,6 @@ p.price {
     margin: 30px;
     text-align: center;
 }
-.utensil-set a {
-    margin-top: -50px;
-}
 .tv {
     grid-column: 4/5;
     padding: 50px;
