@@ -5,8 +5,8 @@ header {
     width: 100%;
 }
 .logo {
-    margin-left: 45%;
-    width: 200px;
+    margin-left: 43%;
+    width: 300px;
 }
 nav {
     display: grid;
@@ -119,6 +119,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 footer h3 {
     color: white;
@@ -216,7 +217,7 @@ p.p3 {
     border: 10px solid #77ADBB;
     grid-column: 2/4;
     margin-left: 100px;
-    margin-top: -630px;
+    margin-top: -770px;
 }
 #couple {
     width: 400px;
