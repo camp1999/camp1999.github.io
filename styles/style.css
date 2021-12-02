@@ -5,7 +5,7 @@ header {
     width: 100%;
 }
 .logo {
-    margin-left: 43%;
+    margin-left: 40%;
     width: 300px;
 }
 nav {
@@ -42,7 +42,7 @@ nav a:hover {
     font-size: 100px;
     font-family: 'Satisfy', Arial, Helvetica, sans-serif;
     grid-column: 3/4;
-    margin-top: -900px;
+    margin-top: -150%;
     z-index: 1;
 }
 #hero-msg {
@@ -145,7 +145,7 @@ footer a{
 /*ourstory.css*/
 .story-grid {
     display: grid;
-    grid-template-columns: repeat(13 1fr);
+    grid-template-columns: repeat(1fr 1fr 1fr 2fr 1fr 1fr 1fr);
 }
 h1#n1 {
     font-family: 'Satisfy', Arial, Helvetica, sans-serif;
@@ -153,83 +153,74 @@ h1#n1 {
     color: #CC7178;
     grid-column: 2/3;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 70px;
+}
+#camcow {
+    width: 300px;
+    height: 400px;
+    border: 10px solid #77ADBB;
+    grid-column: 2/3;
+    margin-top: -100%;
+    margin-left: 11%;
 }
 p.p1 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #CC7178;
-    grid-column: 4/9;
-    margin-top: 300px;
-    margin-left: 200px;
+    grid-column: 4/6;
     line-height: 1.5em;
-    height: 500px;
-    width: 1200px;
-}
-#camcow {
-    width: 400px;
-    height: 500px;
-    border: 10px solid #77ADBB;
-    grid-column: 2/3;
-    margin-top: -600px;
-    margin-left: 100px;
+    padding-top: 15%;
+    
 }
 h1#n2 {
     font-family: 'Satisfy', Arial, Helvetica, sans-serif;
     font-size: 60px;        
     color: #CC7178;
-    grid-column: 10/11;
+    grid-column: 5/6;
     text-align: center;
-    margin-top: 100px;
-    margin-right: 50px;
 }
 p.p2 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #CC7178;
-    grid-column: 3/9;
+    grid-column: 2/5;
     text-align: center;
-    margin-right: 200px;
     line-height: 1.5em;
+    padding: 0% 5% 10% 10%;
 }
 #babyb {
-    grid-column: 10/11;
+    grid-column: 5/6;
     border: 10px solid #77ADBB;
-    width: 500px;
-    height: 400px;
-    margin-right: 100px;
+    width: 400px;
+    height: 300px;
+    margin-top: 20%;
 }
 h1#n3 {
     font-family: 'Satisfy', Arial, Helvetica, sans-serif;
     font-size: 80px;
     color: #CC7178;
-    grid-column: 6/7;
+    grid-column: 4/5;
     text-align: center;
-    margin-top: 300px;
 }
 p.p3 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #CC7178;
-    grid-column: 4/9;
-    padding: 100px;
+    grid-column: 4/5;
+    padding-left: 10%;
 }
 #dance {
     width: 400px;
     height: 500px;
-    border: 10px solid #77ADBB;
-    grid-column: 2/4;
-    margin-left: 100px;
-    margin-top: -770px;
+    grid-column: 2/3;
+    padding-left: 5%;
+    margin-top:-190%;
 }
 #couple {
     width: 400px;
     height: 500px;
-    border: 10px solid #77ADBB;
-    grid-column: 10/12;
-    margin-top: 150px;
-    line-height: 1.5em;
+    grid-column: 5/6;
+    padding-left: 20%;
+    padding-top: 45%;
 }
 
 /*registry*/
