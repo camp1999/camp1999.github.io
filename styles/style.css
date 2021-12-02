@@ -70,7 +70,7 @@ nav a:hover {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     background-color: #77ADBB;
     margin-top: 200px;
     width: 100%;
@@ -86,19 +86,19 @@ nav a:hover {
     font-size: 30px;
 }
 .temple-card {
-    grid-column: 1/2;
+    /*grid-column: 1/2;*/
     text-align: center;
-    padding: 50px;
+    padding: 100px 50px 100px 100px;
     margin-left: 35px;
 }
 #temple {
-    width: 700px;
-    height: 500px;
+    width: 75%;
 }
 .reception-card h1 {
     font-size: 50px;
     font-family: 'Satisfy', Arial, Helvetica, sans-serif;
     color: #FFD9DA;
+    grid-column: 2/5;
 }
 .reception-card p {
     color: #FFD9DA;
@@ -106,13 +106,16 @@ nav a:hover {
     font-size: 30px;
 }
 .reception-card {
-    grid-column: 3/5;
+    /*grid-column: 2/4;*/
     text-align: center;
-    padding: 50px;
+    display: block;
+    padding: 100px 100px 100px 50px;
+}
+iframe {
+    width: 50%;
 }
 #start-up {
-    width: 700px;
-    height: 500px;
+    width: 75%;
 }
 footer {
     background-color: #CC7178;
