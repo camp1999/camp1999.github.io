@@ -73,6 +73,7 @@ nav a:hover {
     grid-template-columns: repeat(4, 1fr);
     background-color: #77ADBB;
     margin-top: 200px;
+    width: 100%;
 }
 .temple-card h1{
     font-size: 50px;
