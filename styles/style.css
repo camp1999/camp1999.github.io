@@ -146,6 +146,7 @@ footer a{
 .story-grid {
     display: grid;
     grid-template-columns: repeat(1fr 1fr 1fr 2fr 1fr 1fr 1fr);
+    padding:100px;
 }
 h1#n1 {
     font-family: 'Satisfy', Arial, Helvetica, sans-serif;
